@@ -11,7 +11,7 @@ function getInputValue()
     ctx.drawImage(frame,0,0);
     ctx.textAlign = 'center';
     ctx.font = 'bold 301px Whyte-Inktrap';
-    ctx.fillStyle = "hsl(63deg 88% 38% / 80%) ";
+    ctx.fillStyle = "#C8EB27";
     ctx.fillText(`${inputVal}`,frame.width/2,1620);
 
     if(window.navigator.msSaveBlob){
